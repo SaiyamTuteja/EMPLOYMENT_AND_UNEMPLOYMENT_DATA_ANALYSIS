@@ -10,8 +10,8 @@ import seaborn as sns
 from sklearn.impute import SimpleImputer
 
 # Read data from CSV files
-df1 = pd.read_csv("C:\Users\Saiyam\Desktop\Project Employment\Project 1\Unemployment_in_India.csv")
-df2 = pd.read_csv("C:\Users\Saiyam\Desktop\Project Employment\Project 1\Unemployment_Rate_upto_11_2020.csv")
+df1 = pd.read_csv("Unemployment_Rate_upto_11_2020.csv")
+df2 = pd.read_csv("Unemployment_in_India.csv")
 
 # Merge dataframes
 merged_df = pd.concat([df1, df2], ignore_index=True)
